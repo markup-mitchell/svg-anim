@@ -24,11 +24,10 @@ seed.style.transition = seed.style.WebkitTransition = 'stroke-dashoffset 2s ease
 // seed.style.transition = seed.style.WebkitTransition = 'fill-opacity 5s ease-in-out';
 // // seed.style.transition = seed.style.WebkitTransition = 'all 4s ease-in-out';
 
-function showColor() {
+(function showColor() {
 pod.style.fillOpacity = 1;
 seed.style.fillOpacity = 1;
-};
-
+})();
 pod.style.strokeDashoffset = '0';
 seed.style.strokeDashoffset = '0';
  
