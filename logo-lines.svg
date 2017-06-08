@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    id="svg6046"
    version="1.1"
    viewBox="0 0 70 70"
    height="70mm"
-   width="70mm">
+   width="70mm"
+   sodipodi:docname="logo-lines.svg"
+   inkscape:version="0.92.1 r">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="880"
+     id="namedview4491"
+     showgrid="false"
+     inkscape:zoom="2.6647321"
+     inkscape:cx="133.78455"
+     inkscape:cy="132.28346"
+     inkscape:window-x="-1"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6046" />
   <defs
      id="defs6040" />
   <metadata
@@ -29,9 +53,11 @@
      id="layer1">
     <path
        transform="rotate(90)"
-       d="m 245.55783,-37.615793 a 16.674511,16.674511 0 0 1 16.74924,-16.523521 16.674511,16.674511 0 0 1 16.5991,16.674341"
+       d="m 245.55783,-37.317921 c 0.083,-9.179267 7.56969,-16.862908 16.74924,-16.821393 9.17955,0.04151 16.5991,7.494699 16.5991,16.674341"
        id="path5945"
-       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#00001e;stroke-width:0.39804602;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:#00001e;stroke-width:0.39804602;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="csc" />
     <path
        transform="rotate(-90)"
        d="m -293.70883,37.587278 a 31.482985,32.612179 0 0 1 15.65588,-28.3449115 31.482985,32.612179 0 0 1 31.52556,-0.07666 31.482985,32.612179 0 0 1 15.78418,28.2684595 l -31.48299,0 z"
