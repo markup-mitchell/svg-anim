@@ -34,7 +34,7 @@ pod2.style.transition = pod2.style.WebkitTransition = 'none';
 // pod2.style.fillOpacity = 1;
 // pod2.style.strokeDashoffset = '0';
 // pod2.style.strokeOpacity = 0;
-pod2.style.fill = 'url(#grad1)';
+// pod2.style.fill = 'url(#grad1)';
 
 const seed2 = document.querySelector('#seed2');
 // const seed2Length = seed2.getTotalLength();
@@ -49,3 +49,5 @@ seed2.style.transition = seed2.style.WebkitTransition = 'none';
 seed2.style.fill = 'url(#grad2)';
 
 // -------------------------------------------------------------------
+
+const POD3 = document.querySelector('#pod3');

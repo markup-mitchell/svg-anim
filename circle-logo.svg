@@ -44,27 +44,35 @@
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4769">
-      <stop
-         id="stop4767"
-         offset="0"
-         style="stop-color:#1fd370;stop-opacity:1" />
-      <stop
-         id="stop4765"
-         offset="1"
-         style="stop-color:#2988e3;stop-opacity:1" />
-    </linearGradient>
+
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient4756-7">
-      <stop
-         style="stop-color:#f74d1e;stop-opacity:1"
-         offset="0"
-         id="stop4752" />
+       id="linearGradient4769">
       <stop
          style="stop-color:#ffdb22;stop-opacity:1"
+         offset="0"
+         id="stop4767" />
+      <stop
+         style="stop-color:#f74d1e;stop-opacity:1"
          offset="1"
-         id="stop4754" />
+         id="stop4765" />
     </linearGradient>
+    <linearGradient
+       id="linearGradient4756-7">
+      <stop
+         id="stop4752"
+         offset="0"
+         style="stop-color:#2988e3;stop-opacity:1" />
+      <stop
+         id="stop4754"
+         offset="1"
+         style="stop-color:#1fd370;top-opacity:1" />
+    </linearGradient>
+
+
+
+
+
+
     <linearGradient
        inkscape:collect="always"
        id="yellow-6"
