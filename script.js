@@ -42,3 +42,39 @@ innerHair.style.strokeDashoffset = innerHairLength;
 innerHair.getBoundingClientRect();
 innerHair.style.transition = innerHair.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
 innerHair.style.strokeDashoffset = '0';
+
+const leftLense = document.querySelector('#leftLense');
+const leftLenseLength = leftLense.getTotalLength();
+leftLense.style.transition = leftLense.style.WebkitTransition = 'none';
+leftLense.style.strokeDasharray = leftLenseLength + ' ' + outerHairLength; 
+leftLense.style.strokeDashoffset = leftLenseLength;
+leftLense.getBoundingClientRect();
+leftLense.style.transition = leftLense.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
+leftLense.style.strokeDashoffset = '0';
+
+const rightLense = document.querySelector('#rightLense');
+const rightLenseLength = rightLense.getTotalLength();
+rightLense.style.transition = rightLense.style.WebkitTransition = 'none';
+rightLense.style.strokeDasharray = rightLenseLength + ' ' + outerHairLength; 
+rightLense.style.strokeDashoffset = rightLenseLength;
+rightLense.getBoundingClientRect();
+rightLense.style.transition = rightLense.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
+rightLense.style.strokeDashoffset = '0';
+
+const leftBrow= document.querySelector('#leftBrow');
+const leftBrowLength = leftBrow.getTotalLength();
+leftBrow.style.transition = leftBrow.style.WebkitTransition = 'none';
+leftBrow.style.strokeDasharray = leftBrowLength + ' ' + outerHairLength; 
+leftBrow.style.strokeDashoffset = leftBrowLength;
+leftBrow.getBoundingClientRect();
+leftBrow.style.transition = leftBrow.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
+leftBrow.style.strokeDashoffset = '0';
+
+const rightBrow= document.querySelector('#rightBrow');
+const rightBrowLength = rightBrow.getTotalLength();
+rightBrow.style.transition = rightBrow.style.WebkitTransition = 'none';
+rightBrow.style.strokeDasharray = rightBrowLength + ' ' + outerHairLength; 
+rightBrow.style.strokeDashoffset = rightBrowLength;
+rightBrow.getBoundingClientRect();
+rightBrow.style.transition = rightBrow.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
+rightBrow.style.strokeDashoffset = '0';
