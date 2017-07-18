@@ -33,3 +33,12 @@ outerFace.style.strokeDashoffset = outerFaceLength;
 outerFace.getBoundingClientRect();
 outerFace.style.transition = outerFace.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
 outerFace.style.strokeDashoffset = '0';
+
+const innerHair = document.querySelector('#innerHair');
+const innerHairLength = innerHair.getTotalLength();
+innerHair.style.transition = innerHair.style.WebkitTransition = 'none';
+innerHair.style.strokeDasharray = innerHairLength + ' ' + outerHairLength; 
+innerHair.style.strokeDashoffset = innerHairLength;
+innerHair.getBoundingClientRect();
+innerHair.style.transition = innerHair.style.WebkitTransition = 'stroke-dashoffset 1s ease-in-out';
+innerHair.style.strokeDashoffset = '0';
